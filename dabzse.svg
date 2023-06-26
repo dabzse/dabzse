@@ -4,7 +4,7 @@
             color: #1982e4;
             align-items: center;
             display: flex;
-            font-family: "Liberation Sans", sans-serif;
+            font-family: "Liberation Serif", sans-serif;
             font-weight: 527;
             font-size: 31pt;
             justify-content: start;
@@ -33,17 +33,17 @@
             z-index: 1;
             box-sizing: border-box;
             text-shadow:
-                -1px -1px 0px #666666,
-                0px -1px 0px #666666,
-                1px -1px 0px #666666,
-                -1px  0px 0px #666666,
+                -1px -1px 4px #8a0303,
+                0px -1px 16px #1982e4,
+                1px -1px 4px #8a0303,
+                -1px  0px 10px #8a0303,
                 1px  0px 0px #666666,
                 -1px  1px 0px #666666,
                 0px  1px 0px #666666,
                 1px  1px 0px #666666;
         }
 
-        .headline--float .char {
+        .headline-float .char {
             --name: float;
             --dur: 3500ms;
             --del: calc(var(--char-index) * -0.7s);
@@ -51,7 +51,7 @@
             --dir: alternate;
         }
 
-        .headline--float .char:nth-child(2n) {
+        .headline-float .char:nth-child(2n) {
             --name: float-alt;
         }
 
@@ -76,7 +76,7 @@
 
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
-            <h2 class="headline headline--float words chars splitting" style="--word-total:2; --char-total:15;">
+            <h2 class="headline headline-float words chars splitting" style="--word-total:2; --char-total:15;">
                 <span class="word" data-word="MR." style="--word-index:0;"><span class="char" data-char="M" style="--char-index:0;">M</span><span class="char" data-char="R" style="--char-index:1;">R</span><span class="char" data-char="." style="--char-index:2;">.</span></span><span class="whitespace"> </span><span class="word" data-word="Mihaly" style="--word-index:1;"><span class="char" data-char="M" style="--char-index:3;">M</span><span class="char" data-char="i" style="--char-index:4;">i</span><span class="char" data-char="h" style="--char-index:5;">h</span><span class="char" data-char="a" style="--char-index:6;">a</span><span class="char" data-char="l" style="--char-index:7;">l</span><span class="char" data-char="y" style="--char-index:8;">y</span></span><span class="whitespace"> </span><span class="word" data-word="NYilas" style="--word-index:2;"><span class="char" data-char="N" style="--char-index:9;">N</span><span class="char" data-char="Y" style="--char-index:10;">Y</span><span class="char" data-char="i" style="--char-index:11;">i</span><span class="char" data-char="l" style="--char-index:12;">l</span><span class="char" data-char="a" style="--char-index:13;">a</span><span class="char" data-char="s" style="--char-index:14;">s</span></span>
             </h2>
         </div>
